@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;900&display=swap');
+/* @import url(https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css); */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.background{
+    background-image: url(./image/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.best-seller{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card{
+    border: none;
+    outline-color: none;
+    background-color: white;
+    border-radius: 20px;
+    transition: transform .3s;
+}
+.card:hover{
+    transform: translateY(-10px);
+    transition: transform .3s;
+}
+.cost{
+    font-weight: bold;
+}
+.text1{
+    font-size: 13px;
+    color: #cbcbcb;
+}
+.text{
+	text-align: center; 
+	font-size: 23px;
+    color: #424b1e;
+    font-weight: bold;
+}
+.star{
+    color:#fbc02d;
+}
+.product{
+    font-size: 15px;
+}
+.flower{
+    background-color: #424b1e;
+    font-size: 12px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.flower:hover{
+    opacity: .8;
+}
+/* footer */
+.bg{
+    background-color: #424b1e;
+}
+/* đánh giá */
+.headrv{
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.cartrv{
+    /* border: none;
+    outline-color: none; */
+    background-color: white;
+}
+.border img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #424b1e;
+}
+.content{
+    font-style: italic;
+    font-size: 12px;
+}
+.name span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #424b1e;
+}
+/* .card-dm{
+    border-radius: 20px;
+}
+.card-dm:hover{
+    opacity: .8;
+} */
+.dm1{
+    background-image: url(./image/dm1.png);
+    border-radius: 20px;
+    background-size: cover;
+    max-width: 460px;
+    height: 140px;
+}
+.dm1:hover{
+    opacity: .8;
+}
+
+.tendanhmuc{
+    font-size: 20px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+.a_product{display: inline-block;}
+.product h1{font-size: 13pt;}
+.product:hover{opacity:1; cursor: pointer;}
+.pagination{margin-left: calc(50% - 15px);}
+.product-actions__buy-now{
+    margin-right: 1em;
+    flex: 1;
+    color: #fff;
+    background-color: #424b1e;
+    border-color: #424b1e;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  }
